@@ -1,5 +1,26 @@
+.about{
+  font-family: "Metal Mania";
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+}
+/* styles.css */
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
 
-.activelink {
-  color: white;
-  text-decoration: none;
+.text .about {
+  margin-bottom: 1rem;
+}
+
+.text .content {
+  display: block;
+  margin: 0 auto;
+  max-width: 600px;
+  line-height: 1.6;
 }
